@@ -25,4 +25,4 @@ Each Section below here will be a reference to a separate file
 ### Curriculum
 * [Habits For Learning](HabitsForLearning.md)
 * [Software? Hardware?](SoftwareAndHardware.md)
-* [Fundamentals Of OS](OperationSystemFundamentals.md)
+* [Operation System Fundamentals](OperationSystemFundamentals.md)
