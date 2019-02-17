@@ -20,7 +20,7 @@ It would even require a new computer to be created each year when requirements c
 It would sound silly to me to do such thing, how about you ?
 
 The name itself suggest that **hard**ware is hard to change.
-And this problem inspirited the need for **soft**ware.
+And this problem inspirited the need for **soft**ware which should be easy to do so compared to hardware.
 This pushed things into a direction, where hardware manufacturers started to aim creating hardware that can perform simple tasks in an acceptable efficiently rate,
 which then can be used by softwares to combine those simple task into a complex solution, which solve a specific need.
 By this solving multiple problems and evolve the solution on the same hardware became reality.
