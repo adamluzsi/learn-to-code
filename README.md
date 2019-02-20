@@ -2,28 +2,40 @@
 
 In this repository you will see some learning materials about programming, that probably help you begin your journey.
 
-## Introduction
+## Prologue
 
-This repository is sole created with the purpose to help you in begin with programming.
-For those who is only about to begin programming may found hard to grasp how to start with and on what topics.
-The goal here is to provide small baby steps for learning about software engineering, and collect the most necessary knowledge in one place.
+The only constant in life is change. In order to make change come more efficiently, learning is a powerful utility.
+Learning about how the brain works on high level, what habits make the learning process easier and efficient
+was a game changer in my life to improve my poor performance.
+I will be honest, when I was a child, I had a lot of trouble with study.
+My brain made the assumption of having talent in one field, while being bad on others.
+The reality was much more easier, and in the meantime invisible because its simplicity.
+It was all about the learning with vs without correlating contextual information about a subject.
+For topics, where my teachers put effort to teach contextual data about the target subject,
+I was able to easily memorize and consume the content, while for those where the teacher didn't put effort into it,
+and I as a student also didn't put any effort into gather contextual information, the topic became harder to memorize,
+therefore it felt to me much harder as well.
 
-The project not going to achieve the following objectives:
-* Teach you specific frameworks
-* keep you up to date with the current trends and hypes
-* make you a software engineer by only reading this guide
+I will not lie to you. My personal opinion is that Software Engineering can be easy and fun, but only if you learn it incrementally.
+To me the secret was to learn the core concepts, then learn new topics upon the on previous ones.
+This way, you will then feel as well that it has a constant, long, but not hard learning process.
+Without incremental approach , it can easily feel like impossible or even like magic, that only talented people can do.
+When you feel that, I guarantee that all you need is to learn some basics that you accidentally left out from your studies.
 
-The project goal is to achieve the following objectives:
-* introduce you to the basic concepts of software engineering
-* help you understand technologies that serve as a basis for most higher level abstraction
-* help you shape your thinking to a direction which allows you do begin iterative self training
-* introduce you to at least one programming language that can be used as reference for your future studies
-* help you get comfortably talk with a rubber duck
+I believe that talent, on the long run is insignificant in this profession.
+But I believe, that being consequent and persistent will help you conquer your studies.
+I believe that you can do it, because the very fact that you reading this now proves that you have made up your mind.
+If you need help, you are welcome to reach out to me and I do my best to help you.
 
-Each Section below here will be a reference to a separate file
+In the upcoming lesions, I will intentionally keep you away from too [high level languages](https://en.wikipedia.org/wiki/High-level_programming_language).
+I want to build a knowledge base, that you will be able to use with almost any language and tooling in the future.
+But for that we have to go trough on the basis, do some extra side research and exercise here and there.
+For that reason, we going to avoid the use of any framework such as a [web application frameworks](https://en.wikipedia.org/wiki/Web_framework).
+
+Each Section below here will be a reference to a separate file that focus on one topic
 
 ### Curriculum
-* [Habits For Learning](HabitsForLearning.md)
+* [Thinking](Thinking.md)
 * [Software? Hardware?](SoftwareAndHardware.md)
 * [Operation System Fundamentals](OperationSystemFundamentals.md)
   * [GNU/Linux](GNU-Linux.md)

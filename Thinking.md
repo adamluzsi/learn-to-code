@@ -1,9 +1,7 @@
-# Habits For Learning
+# Thinking
 
-The only constant in life is change.
-What really helped me embrace the journey of Software Engineering is the fact,
-that I was able to learn about myself as well while I was learning about SE.
-The habits Software Engineering taught me helped me form myself and the virtual limit for what I can achieve.
+Here, in this page, each following section will describe one habit that can change your thinking and learning potential.
+For now, you just going to read them, and in the upcoming lesions, I advise you to try apply them on your studies.
 
 ## Grounding your thinking
 
