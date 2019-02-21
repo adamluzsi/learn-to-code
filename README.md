@@ -39,3 +39,5 @@ Each Section below here will be a reference to a separate file that focus on one
 * [Software? Hardware?](SoftwareAndHardware.md)
 * [Operation System Fundamentals](OperationSystemFundamentals.md)
   * [GNU/Linux](GNU-Linux.md)
+* [Graphical User Interface](GraphicalUserInterface.md)
+* [Command Line Interface](CommandLineInterface.md)
