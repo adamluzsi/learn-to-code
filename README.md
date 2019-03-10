@@ -37,6 +37,7 @@ Each Section below here will be a reference to a separate file that focus on one
 ### Curriculum
 * [Thinking](Thinking.md)
 * [Software? Hardware?](SoftwareAndHardware.md)
+  * [Hardware summary](HardwareSummary.md)
 * [Operation System Fundamentals](OperationSystemFundamentals.md)
   * [GNU/Linux](GNU-Linux.md)
 * [Shell](Shell.md)
