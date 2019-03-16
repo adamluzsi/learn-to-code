@@ -78,6 +78,16 @@ than the long-term memory, but more about that later.
 Modern RAMs can only keep they supplied with electricity.
 So if your power off / restart that device, the RAM will lose its content.
 
+### [Clock Speed meaning for ram (MHz)](https://en.wikipedia.org/wiki/DDR_SDRAM)
+
+MHz of RAM is the maximum number of clock cycles per second that the RAM operates on.
+With Double Data Rate (DDR) RAM, it actually communicates twice per cycle.
+This is why chips are now named for their bandwidth, not their frequency alone.
+It's still necessary to know the clock rate, to ensure that the motherboard/CPU can operate at that clock.
+
+Example with a 200 MHz DDR (PC-3200):
+> 200 MHz clock rate × 2 (for DDR, 1 for SDR) × 8 Bytes = 3,200 MB/s bandwidth
+
 # [Input/Output (I/O or IO)](https://en.wikipedia.org/wiki/Input/output)
 
 Inputs are the signals or data received by the system and outputs are the signals or data sent from it.
