@@ -35,12 +35,8 @@ For that reason, we going to avoid the use of any framework such as a [web appli
 Each Section below here will be a reference to a separate file that focus on one topic
 
 ### Curriculum
-* [Thinking](Thinking.md)
+* [Thinking Habits](ThinkingHabits.md)
 * [Software? Hardware?](SoftwareAndHardware.md)
   * [Hardware summary](HardwareSummary.md)
 * [Operation System Fundamentals](OperationSystemFundamentals.md)
   * [GNU/Linux](GNU-Linux.md)
-* [Shell](Shell.md)
-    * [Command Line Interface](CommandLineInterface.md)
-    * [Graphical User Interface](GraphicalUserInterface.md)
-* [Terminal Emulator]()

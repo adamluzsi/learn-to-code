@@ -1,4 +1,4 @@
-# Thinking
+# Thinking Habits
 
 Here, in this page, each following section will describe one habit that can change your thinking and learning potential.
 For now, you just going to read them, and in the upcoming lesions, I advise you to try apply them on your studies.
