@@ -43,3 +43,4 @@ Each Section below here will be a reference to a separate file that focus on one
 * [Shell / Command Line Interface](Shell.md)
     * [Command Line Interface](CommandLineInterface.md)
     * [Graphical User Interface](GraphicalUserInterface.md)
+* [The Unix Philosophy](UnixPhilosophy.md)
