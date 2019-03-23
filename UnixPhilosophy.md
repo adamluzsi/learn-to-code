@@ -25,3 +25,17 @@ But that is again is my opinion, handle with a grain of salt please.
 * Write programs that do one thing and do it well.
 * Write programs to work together.
 * Write programs to handle text streams, because that is a universal interface.
+
+## Examples And Similarities
+
+The [GNU coreutils](https://www.gnu.org/software/coreutils/manual/html_node/index.html) are a perfect example for how it look when applications are built with Unix philosophy.
+But you can find similar practices in software development techniques
+that is originated from the same root case as the unix philosophy,
+therefore share a lot of directives.
+One example to this is the micro service architecture where you build small software applications
+where each of them usually have small definable main purpose/goal.
+We will learn more about that later on, when it will be needed.
+
+To put it into a easy to grasp example, while [Swiss Army knife](https://en.wikipedia.org/wiki/Swiss_Army_knife) is a well famed tool,
+it is still more preferable to use a proper knife for most preparing dishes,
+or cutting wood with a Wood saw that serve only that purpose.
