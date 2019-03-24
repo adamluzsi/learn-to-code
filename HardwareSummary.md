@@ -124,54 +124,29 @@ Also when you learn things during the day, you will most likely memorize it in y
 ## [Keyboard](https://en.wikipedia.org/wiki/Computer_keyboard) (copied from wiki)
 
 In computing, a computer keyboard is a typewriter-style device which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches.
-Following the decline of punch cards and paper tape, interaction via teleprinter-style keyboards became the main input method for computers.
-Keyboard keys (buttons) typically have characters engraved or printed on them,
-and each press of a key typically corresponds to a single written symbol.
-However, producing some symbols may require pressing and holding several keys simultaneously or in sequence.
-While most keyboard keys produce letters, numbers or signs (characters),
-other keys or simultaneous key presses can produce actions or execute computer commands.
-In normal usage, the keyboard is used as a text entry interface for typing text and numbers into a word processor, text editor or any other program.
-In a modern computer, the interpretation of key presses is generally left to the software.
 A computer keyboard distinguishes each physical key from every other key and reports all key presses to the controlling software.
 
 ## [Mouse](https://en.wikipedia.org/wiki/Computer_mouse) (copied from wiki)
 
+TL;DR:
+> It allows the user to use its whole hand's muscles to control a pointer in the [Graphical User Interface](GraphicalUserInterface.md).
+
 A computer mouse is a hand-held pointing device that detects two-dimensional motion relative to a surface.
 This motion is typically translated into the motion of a pointer on a display,
-which allows a smooth control of the graphical user interface.
-The first public demonstration of a mouse controlling a computer system was in 1968.
-Originally wired to a computer, many modern mice are cordless, relying on short-range radio communication with the connected system.
-Mice originally used a ball rolling on a surface to detect motion,
-but modern mice often have optical sensors that have no moving parts.
-In addition to moving a cursor, computer mice have one or more buttons to allow operations such as selection of a menu item on a display.
-Mice often also feature other elements, such as touch surfaces and "wheels",
-which enable additional control and dimensional input.
 
 ## [Touchpad](https://en.wikipedia.org/wiki/Touchpad) (copied from wiki)
 
+TL;DR:
+> It allows the user to use its fingers to control a pointer in the [Graphical User Interface](GraphicalUserInterface.md).
+
 A touchpad or trackpad is a pointing device featuring a tactile sensor,
-a specialized surface that can translate the motion and position of a user's fingers to a relative position on the operating system that is made output to the screen.
-Touchpads are a common feature of laptop computers, and are also used as a substitute for a mouse where desk space is scarce.
-Because they vary in size, they can also be found on personal digital assistants (PDAs) and some portable media players.
-Wireless touchpads are also available as detached accessories.
-
-## [Monitor](https://en.wikipedia.org/wiki/Computer_monitor) (copied from wiki)
-
-A computer monitor is an output device that displays information in pictorial form.
-A monitor usually comprises the display device, circuitry, casing, and power supply.
-The display device in modern monitors is typically a thin film transistor liquid crystal display (TFT-LCD) with LED backlighting having replaced cold-cathode fluorescent lamp (CCFL) backlighting.
-Older monitors used a cathode ray tube (CRT). Monitors are connected to the computer via VGA, Digital Visual Interface (DVI), HDMI, DisplayPort, Thunderbolt, low-voltage differential signaling (LVDS) or other proprietary connectors and signals.
-
-Originally, computer monitors were used for data processing while television receivers were used for entertainment.
-From the 1980s onwards, computers (and their monitors) have been used for both data processing and entertainment,
-while televisions have implemented some computer functionality.
-The common aspect ratio of televisions, and computer monitors, has changed from 4:3 to 16:10, to 16:9.
-
-Modern computer monitors are easily interchangeable with conventional television sets.
-However, as computer monitors do not necessarily include components such as a television tuner and speakers,
-it may not be possible to use a computer monitor as a television without external components.
+a specialized surface that can translate the motion and position of a user's fingers
+to a relative position on the operating system that is made output to the screen.
 
 ## [Touchscreen](https://en.wikipedia.org/wiki/Touchscreen) (copied from wiki)
+
+TL;DR:
+> The touchscreen enables the user to interact directly with what is displayed on the [Graphical User Interface](GraphicalUserInterface.md) by touching it with fingers.
 
 A touchscreen, or touch screen, is an input device and normally layered on the top of an electronic visual display of an information processing system.
 A user can give input or control the information processing system through simple or multi-touch gestures by touching the screen with a special stylus or one or more fingers.
@@ -191,12 +166,24 @@ Touchscreens are found in the medical field, heavy industry, automated teller ma
 and kiosks such as museum displays or room automation, where keyboard and mouse systems do not allow a suitably intuitive,
 rapid, or accurate interaction by the user with the display's content.
 
-Historically, the touchscreen sensor and its accompanying controller-based firmware have been made available by a wide array of
-after-market system integrators, and not by display, chip, or motherboard manufacturers.
-Display manufacturers and chip manufacturers have acknowledged the trend toward acceptance of touchscreens
-as a user interface component and have begun to integrate touchscreens into the fundamental design of their products.
+## [Monitor](https://en.wikipedia.org/wiki/Computer_monitor) (copied from wiki)
+
+TL;DR:
+> The monitor is a device that can display and the user eye is able to see it.
+
+A computer monitor is an output device that displays information in pictorial form.
+A monitor usually comprises the display device, circuitry, casing, and power supply.
+The display device in modern monitors is typically a thin film transistor liquid crystal display (TFT-LCD)
+with LED backlighting having replaced cold-cathode fluorescent lamp (CCFL) backlighting.
+Older monitors used a cathode ray tube (CRT). Monitors are connected to the computer via VGA,
+Digital Visual Interface (DVI), HDMI, DisplayPort, Thunderbolt, low-voltage differential signaling (LVDS)
+or other proprietary connectors and signals.
 
 ## [Network+NetworkCards](https://en.wikipedia.org/wiki/Computer_network) (copied from wiki)
+
+TL;DR:
+> network is the a way to make computers able to talk to each other, and share information between each other.
+   like funny memes from the internet.
 
 A computer network is a digital telecommunications network which allows nodes to share resources.
 In computer networks, computing devices exchange data with each other using connections (data links) between nodes.
