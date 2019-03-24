@@ -36,11 +36,24 @@ An oversimplified example is that for such programs it can be a great performanc
 
 ### [Simultaneous Multi Threading](https://en.wikipedia.org/wiki/Simultaneous_multithreading)
 
-In multi-threading as general, the CPU core poses to the Software as N separate cores
-and fetches N programs in parallel, just like N separate cores would.
-Now these N programs are fed into the core to make the most of the unused assets in the chip,
+Multi threading from CPU perspective means one CPU core fetches multiple program instructions,
+and some shared resources can be used more efficiently.
+
+In practice, at high level from operation system perspective,
+this looks like one CPU core represented by multiple one,
+thus the operation system provides task to each CPU core it sees.
+Now these programs the threads received are fed into the actually CPU core
+to make the most of the unused assets in the chip,
 and thus make possible that multiple processes can use the same resources.
-In addition, it is required for simultaneous multithreading (SMT) that the operating system support it.
+For this to work with the Operation System,
+it is required for simultaneous multithreading (SMT) to be supported by that OS.
+
+Think about the following simplified example:
+If you receive two task to do at the same time,
+Like you have to colorize two fairy tale character shoe to the same color,
+you can easily do both task without the need to ask any more information from the task giver.
+If you would not be able to do multi threading, you would have to ask for the task,
+ask for the color, do the coloring, and repeat from the beginning.
 
 ### Example
 
