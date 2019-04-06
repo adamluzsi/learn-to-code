@@ -43,5 +43,8 @@ Each Section below here will be a reference to a separate file that focus on one
 * [Shell / Command Line Interface](Shell.md)
     * [Graphical User Interface](GraphicalUserInterface.md)
     * [Command Line Interface](CommandLineInterface.md)
+        * [Environment Variables](CLI/EnvironmentVariables.md)
+        * [How file/directory path(s) is interpreted](CLI/Paths.md)
+        * [How a command line request is interpreted by the shell](CLI/CommandLineInterpretation.md)
         * [coreutils](CLI/coreutils.md)
 * [The Unix Philosophy](UnixPhilosophy.md)
