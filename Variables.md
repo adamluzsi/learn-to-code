@@ -32,4 +32,35 @@ and you search a someone by they role. Like HR department.
 You don't have to know everyone to know who you need to contact,
 in case you have a problem, instead you can use a symbolic group mailing address.
 
+## Syntax / Written form
+
+If types and other things don't tell you anything now,
+don't worry, because we will have a detailed introduction for that in the future.
+For now, it is enough to understand the examples above,
+and just see a few example about how they could look in written form.
+
+Most of the case, the single equal sign is a good way to spot variable declaration.
+
+### In most static type language
+
+In language where you have to work with types,
+usually the following variations are the most common:
+
+    dataType variableName = initialValue;
+    var variableName dataType = initialValue;
+    variableName := initialValue;
+
+### In most dynamic type language
+
+In most high level language, types usually not defined in the code.
+So most of the time it is either a keyword like "var"
+or even not that required to write down variable declaration.
+
+    var variableName = initialValue;
+    variableName = initialValue;
+    SET variableName TO initialValue;
+
+Just to mention it, types in most high level language are used,
+but not mentioned in the code, to apply some programming principles with less boilerplate.
+But more about that as well in the future!
 
