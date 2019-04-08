@@ -47,9 +47,22 @@ as variable with a dollar sign.
 
 ## The Scope/Visibility of such ENV Variable
 
-This means when one variable is created in one shell,
-is cannot be accessed from a different shell,
-but any shell that is created in the shell where they have been created can see it.
+When you create a shell variable in a shell,
+that variable will be accessible by that shell session.
+
+If the variable is marked to be available for child processes with `export`,
+than any new process and shell session that is created from our current shell session will see the marked variables
+
+But even by using `export` marking on the variable,
+the variable will not become available in processes / shell sessions which created out current shell session.
+Because of this, if you create a variable, and export it, no other shell sessions that are independent from your current session will see it.
+
+    In a made up but still real world example,
+    think about a scenario, where you have created a homework assignment.
+    And you hand it over to your friend who by chance forgot to do it (shell spawning a child process or new shell session)
+    Your friend is in possession of your work, and do some modification on it, before handing in for the teacher.
+    Your friend had the knowledge about your homework assignment content,
+    while you have no knowledge what that friend changed in it, afterwards.
 
 ### Example
 
