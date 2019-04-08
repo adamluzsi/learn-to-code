@@ -50,3 +50,18 @@ as variable with a dollar sign.
 This means when one variable is created in one shell,
 is cannot be accessed from a different shell,
 but any shell that is created in the shell where they have been created can see it.
+
+### Example
+
+```
+.
+├── Shell1 created
+│   ├── Variable1 created and readable from Shell1 and will be readable even from any shell created in Shell1
+│   └── Shell2 created by Shell1
+│       ├── Variable1 readable here
+│       ├── Variable1 cannot be changed in Shell1 from here but you can assign new value here that will remain for Shell2
+│       └── Variable2 created and readable but no one else see it. Shell1 for example have no knowledge about it.
+└── Shell3 created
+    ├── Variable3 created and readable but no one else can see it, like Shell1 and Shell2 have no knowledge about it.
+    └── Variable3 created and readable but no one else can see it, like Shell1 and Shell2 have no knowledge about it.
+```
