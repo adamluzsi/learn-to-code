@@ -47,5 +47,5 @@ Each Section below here will be a reference to a separate file that focus on one
         * [Environment Variables](CLI/EnvironmentVariables.md)
         * [How file/directory path(s) is interpreted](CLI/Paths.md)
         * [How a command line request is interpreted by the shell](CLI/CommandLineInterpretation.md)
-        * [coreutils](CLI/coreutils.md)
+        * [Unix/Unix-like system basic tools](CLI/coreutils.md)
 * [The Unix Philosophy](UnixPhilosophy.md)
