@@ -40,6 +40,7 @@ Each Section below here will be a reference to a separate file that focus on one
   * [Hardware summary](HardwareSummary.md)
 * [Operation System Fundamentals](OperationSystemFundamentals.md)
   * [GNU/Linux](GNU-Linux.md)
+* [What are the variables, and why they can be useful for us ?](Variables.md)
 * [Shell / Command Line Interface](Shell.md)
     * [Graphical User Interface](GraphicalUserInterface.md)
     * [Command Line Interface](CommandLineInterface.md)
