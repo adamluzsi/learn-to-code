@@ -14,63 +14,8 @@ CPU performs the basic arithmetic, logic, controlling, and input/output (I/O) op
 This is when the brain try to use mathematics, answer a yes or no question or doing REM during night.
 Almost anything the computer **do actively** is usually done by the CPU, except I/O operations.
 
-### Clock Cycle / Clock Speed
-
-One of its property is the clock speed which sometimes used as a measurement unit for its performance.
-CPU clock speed, or clock rate, is measured in Hertz, generally in gigahertz, or GHz.
-A CPU’s clock speed rate is a measure of how many clock cycles a CPU can perform per second.
-For example, a CPU with a clock rate of 1.8 GHz can perform 1,800,000,000 clock cycles per second.
-If we oversimplify and ignore all other bottleneck in the system, this can be interpreted as,
-the more clock cycle it can do, the more [program instruction](https://en.wikipedia.org/wiki/Instruction_set_architecture) it will execute.
-
-### [MultiCore](https://en.wikipedia.org/wiki/Multi-core_processor)
-
-Multi-core means what you would assume, multiple CPU core is integrated together in one CPU component.
-For applications written in a way that they [only execute one action a time](https://en.wikipedia.org/wiki/Synchronous_programming_language), this means,
-you can run multiple application on a computer, but even if you have more core in the CPU, it will not increase the performance of one individual applications.
-An oversimplified example is that for such programs it is no matter if your CPU has 4 core or Infinite.
-
-If the application created in a way, that it can [distribute programming instructions between CPU cores](https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)),
-this also can easily mean that that kind of application can benefit from applications that the computer additional CPU cores.
-An oversimplified example is that for such programs it can be a great performance boost if the system has 8 core instead of 4.
-
-### [Simultaneous Multi Threading](https://en.wikipedia.org/wiki/Simultaneous_multithreading)
-
-Multi threading from CPU perspective means one CPU core fetches multiple program instructions,
-and some shared resources can be used more efficiently.
-
-In practice, at high level from operation system perspective,
-this looks like one CPU core represented by multiple one,
-thus the operation system provides task to each CPU core it sees.
-Now these programs the threads received are fed into the actually CPU core
-to make the most of the unused assets in the chip,
-and thus make possible that multiple processes can use the same resources.
-For this to work with the Operation System,
-it is required for simultaneous multithreading (SMT) to be supported by that OS.
-
-Think about the following simplified example:
-If you receive two task to do at the same time,
-Like you have to colorize two fairy tale character shoe to the same color,
-you can easily do both task without the need to ask any more information from the task giver.
-If you would not be able to do multi threading, you would have to ask for the task,
-ask for the color, do the coloring, and repeat from the beginning.
-
-### Example
-
-2 core 4 thread 2 GHz
-```txt
-.
-├── [core1 - 2GHZ]
-│   ├── [thread1]
-│   ├── [thread2]
-│   ├── [thread3]
-│   └── [thread4]
-└── [core2 - 2GHZ]
-    ├── [thread1]
-    ├── [thread2]
-    ├── [thread3]
-    └── [thread4]
-```
+If you don't fear to go ahead a little, you can continue learning more about CPU [here](CPU.md).
+But it is optional, since we will come back later to learn more about hardware when we are further in the curriculum.
 
 ## [Random-access memory (RAM)](https://en.wikipedia.org/wiki/Random-access_memory)
 
@@ -91,15 +36,8 @@ than the long-term memory, but more about that later.
 Modern RAMs can only keep they supplied with electricity.
 So if your power off / restart that device, the RAM will lose its content.
 
-### [Clock Speed meaning for ram (MHz)](https://en.wikipedia.org/wiki/DDR_SDRAM)
-
-MHz of RAM is the maximum number of clock cycles per second that the RAM operates on.
-With Double Data Rate (DDR) RAM, it actually communicates twice per cycle.
-This is why chips are now named for their bandwidth, not their frequency alone.
-It's still necessary to know the clock rate, to ensure that the motherboard/CPU can operate at that clock.
-
-Example with a 200 MHz DDR (PC-3200):
-> 200 MHz clock rate × 2 (for DDR, 1 for SDR) × 8 Bytes = 3,200 MB/s bandwidth
+If you don't fear to go ahead a little, you can continue learning more about RAM [here](RAM.md).
+But it is optional, since we will come back later to learn more about hardware when we are further in the curriculum.
 
 # [Input/Output (I/O or IO)](https://en.wikipedia.org/wiki/Input/output)
 
