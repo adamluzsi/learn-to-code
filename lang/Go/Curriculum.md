@@ -1,0 +1,274 @@
+- CLI commands to know
+    - [ ] go get
+    - [ ] go run
+    - [ ] go test
+    - [ ] go mod
+- [ ] Go modules overview
+- [ ] Creating a go module
+- [ ] Make a `Hello, world!` console application
+- [ ] Short declaration operator
+- [ ] The var keyword
+- [ ] Exploring type
+- [ ] Zero value
+- [ ] The fmt package
+- [ ] Creating your own type
+- [ ] Conversion, not casting
+- [ ] Bool type
+- [ ] How computers work
+- [ ] Numeric types
+- [ ] String type
+- [ ] Numeral systems
+- [ ] Constants
+- [ ] Iota
+- [ ] Bit shifting
+- [ ] Understanding control flow
+- [ ] Loop - init, condition, post
+- [ ] Loop - nesting loops
+- [ ] Loop - for statement
+- [ ] Loop - break & continue
+- [ ] Loop - printing ascii
+- [ ] Conditional - if statement
+- [ ] Conditional - if, else if, else
+- [ ] Loop, conditional, modulus
+- [ ] Conditional - switch statement
+- [ ] Conditional - switch statement documentation
+- [ ] Conditional logic operators
+- [ ] Array
+- [ ] Slice - composite literal
+- [ ] Slice - for range
+- [ ] Slice - slicing a slice
+- [ ] Slice - append to a slice
+- [ ] Slice - deleting from a slice
+- [ ] Slice - make
+- [ ] Slice - multi-dimensional slice
+- [ ] Map - introduction
+- [ ] Map - add element & range
+- [ ] Map - delete
+- [ ] Struct
+- [ ] Embedded structs
+- [ ] Reading documentation
+- [ ] Anonymous structs
+- [ ] Housekeeping
+- [ ] Syntax
+- [ ] Variadic parameter
+- [ ] Unfurling a slice
+- [ ] Defer
+- [ ] Methods
+- [ ] Interfaces & polymorphism
+- [ ] Anonymous func
+- [ ] func expression
+- [ ] Returning a func
+- [ ] Callback
+- [ ] Closure
+- [ ] Recursion
+- [ ] What are pointers?
+- [ ] When to use pointers
+- [ ] Method sets
+- [ ] JSON documentation
+- [ ] JSON marshal
+- [ ] JSON unmarshal
+- [ ] Writer interface
+- [ ] Sort
+- [ ] Sort custom
+- [ ] bcrypt
+- [ ] Concurrency vs parallelism
+- [ ] WaitGroup
+- [ ] Method sets revisited
+- [ ] Documentation
+- [ ] Race condition
+- [ ] Mutex
+- [ ] Atomic
+- [ ] Understanding channels
+- [ ] Directional channels
+- [ ] Using channels
+- [ ] Range
+- [ ] Select
+- [ ] Comma ok idiom
+- [ ] Fan in
+- [ ] Fan out
+- [ ] Context
+- [ ] Understanding
+- [ ] Checking errors
+- [ ] Printing and logging
+- [ ] Recover
+- [ ] Errors with info
+- [ ] Introduction
+- [ ] go doc
+- [ ] godoc
+- [ ] godoc.org
+- [ ] Writing documentation
+- [ ] Introduction
+- [ ] Table tests
+- [ ] Example tests
+- [ ] Golint
+- [ ] Benchmark
+- [ ] Coverage
+- [ ] Benchmark examples
+- [ ] Review
+- [ ] Congratulations
+- [ ] The original course
+- [ ] Hello World!
+- [ ] Section Overview
+- [ ] Installation Insights
+- [ ] Go Workspace
+- [ ] Environment Variables
+- [ ] Windows - Configuring Path Variables
+- [ ] Mac - Configuring Path Variables
+- [ ] IMPORTANT - REGARDING LINUX VIDEOS THAT FOLLOW
+- [ ] Linux - Machine Setup
+- [ ] Linux - Machine Configuration
+- [ ] Linux - Configuring Path Variables
+- [ ] Testing Your Installation
+- [ ] Section Review
+- [ ] Section Overview
+- [ ] Go Editors
+- [ ] WebStorm & Atom.io
+- [ ] Creating Your First Project
+- [ ] Hello World with Webstorm
+- [ ] The Go Command & Documentation
+- [ ] Understanding Github
+- [ ] Using Github
+- [ ] Section Review
+- [ ] Section Overview
+- [ ] How Computers Work - Part I
+- [ ] How Computers Work - Part II
+- [ ] Github Update Command
+- [ ] Numeral Systems
+- [ ] Binary Numbering System
+- [ ] Hexadecimal Numbering System
+- [ ] Text Encoding
+- [ ] Coding Scheme Programs
+- [ ] Format Printing
+- [ ] Section Review
+- [ ] Section Overview
+- [ ] Packages
+- [ ] Go Commands
+- [ ] Variables
+- [ ] Scope
+- [ ] Scope II
+- [ ] Closure
+- [ ] Blank Identifier
+- [ ] Constants
+- [ ] Constants II
+- [ ] Words of Encouragement
+- [ ] Pointers
+- [ ] Using Pointers
+- [ ] Remainder
+- [ ] Section Review
+- [ ] Section Overview
+- [ ] For Loop
+- [ ] Nested Loops
+- [ ] Conditions, Break, & Continue
+- [ ] Rune
+- [ ] String Type
+- [ ] Switch Statements
+- [ ] If Statements
+- [ ] Exercise Solutions
+- [ ] Section Review
+- [ ] Section Overview
+- [ ] Intro To Functions
+- [ ] Func Returns
+- [ ] Variadic Functions
+- [ ] Variadic Arguments
+- [ ] Func Expressions
+- [ ] Closure
+- [ ] Callbacks
+- [ ] Callback Example
+- [ ] Recursion
+- [ ] Defer
+- [ ] Pass By Value
+- [ ] Reference Types
+- [ ] Anonymous Self-Executing Functions
+- [ ] Bool Expressions
+- [ ] Exercises - Part I
+- [ ] Exercises - Part II
+- [ ] Section Review
+- [ ] Data Structures Overview
+- [ ] Array
+- [ ] Array Examples
+- [ ] Slices
+- [ ] Slice Examples
+- [ ] More Slice Examples
+- [ ] Creating A Slice
+- [ ] Incrementing A Slice Item
+- [ ] Section Review
+- [ ] Maps Introduction
+- [ ] Map Examples - Part I
+- [ ] Map Examples - Part II
+- [ ] Map Examples - Part III
+- [ ] Map Documentation
+- [ ] Map Range Loop
+- [ ] GitHub Pull
+- [ ] Hash Tables
+- [ ] Hashing Words
+- [ ] Hashing Words II
+- [ ] Build A Hash Table
+- [ ] Finished Hash Algorithm
+- [ ] Structs Introduction
+- [ ] OOP in Go
+- [ ] User-Defined Types
+- [ ] Composition
+- [ ] JSON Marshal
+- [ ] JSON Unmarshal
+- [ ] JSON Encode
+- [ ] JSON Decode
+- [ ] Interfaces
+- [ ] Code Substitutability
+- [ ] Bill Kennedy
+- [ ] Donovan & Kernighan
+- [ ] Sort Package
+- [ ] Sort Solution
+- [ ] Sort Reverse
+- [ ] Sort Slice Int
+- [ ] Empty Interface
+- [ ] Method Sets
+- [ ] Conversion vs Assertion
+- [ ] Concurrency & WaitGroup
+- [ ] Parallelism
+- [ ] Race Conditions
+- [ ] Mutex
+- [ ] Atomicity
+- [ ] Review & Channels Preview
+- [ ] Channels - Introduction
+- [ ] Range Clause
+- [ ] N-to-1
+- [ ] Semaphores - Part 1
+- [ ] Semaphores - Part 2
+- [ ] 1-to-N
+- [ ] Channels as Arguments & Returns
+- [ ] Channel Direction
+- [ ] Incrementor With Channels
+- [ ] Deadlock Challenge
+- [ ] Factorial Challenge
+- [ ] Pipeline Pattern
+- [ ] Factorial Challenge Redux
+- [ ] Factorial Challenge Redux Solution
+- [ ] Fan Out / Fan In Pattern - Overview
+- [ ] Fan In Pattern
+- [ ] Fan Out / Fan In - Example
+- [ ] Fan Out / Fan In - Challenge
+- [ ] Fan Out / Fan In - Solution
+- [ ] Fan Out / Fan In - Challenge: Factorial
+- [ ] Fan Out / Fan In - Solution: Factorial
+- [ ] Deadlock Challenge
+- [ ] Deadlock Solution
+- [ ] Incrementor Challenge Revisited
+- [ ] Incrementor Solution
+- [ ] Additional Resources
+- [ ] An Introduction to Error Handling in Go
+- [ ] Improving Your Code with Golint
+- [ ] Handling Errors & Logging Errors to a File
+- [ ] Four Common Ways to Handle Errors
+- [ ] Custom Errors - Creating Values of Type error
+- [ ] Idiomatic Error Handling
+- [ ] Providing Context with Errors
+- [ ] Providing Even More Context with Errors
+- [ ] Error Handling Review & Resources
+- [ ] Congratulations
+- [ ] Bonus lecture
+
+
+- [ ] Package management
+- [ ] Adding a dependency
+- [ ] Upgrading dependencies
+- [ ] Introduction to packages
