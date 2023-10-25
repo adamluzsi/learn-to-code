@@ -99,7 +99,7 @@ Often commands expect some `argument` to be able to fullfil they purpose.
 
 ### Why they are needed ?
 
-When we talked about [variables](../Variables.md) in generals,
+When we talked about [variables](../../../basics/Variables.md) in generals,
 it was mentioned, that when we create software,
 we work with values in  a way that they are become concrete only during runtime.
 A way to request concrete values from a user is to use the CLI `arguments`

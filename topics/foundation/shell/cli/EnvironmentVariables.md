@@ -3,7 +3,7 @@
 In Shell, you can have special names that express values under the hood.
 These env variables are set to a specific shell runtime where they have been created.
 
-If you don't know what are variables, [please read this](../Variables.md).
+If you don't know what are variables, [please read this](../../../basics/Variables.md).
 More about that later, but first of all, what problem variables can solve ?
 
 ## Why and how we can use them ?
