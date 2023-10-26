@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -eE 
+
+if [ -f "test_main.py" ]; then
+	python -m unittest discover
+fi
+
