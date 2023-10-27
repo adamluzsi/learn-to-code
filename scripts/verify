@@ -2,6 +2,12 @@
 set -eE 
 
 if [ -f "test_main.py" ]; then
-	python -m unittest discover
+  declare pycmd
+  if type python3 &>/dev/null ; then
+    pycmd="python3"
+  else
+    pycmd="python"
+  fi
+	"${pycmd}" -m unittest discover
 fi
 
