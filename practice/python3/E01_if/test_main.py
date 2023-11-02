@@ -17,7 +17,8 @@ class TestSolutions(unittest.TestCase):
     def test_solution2(self):
         self.assertEqual(main.solution2("flash"), "thunder")
         self.assertEqual(main.solution2("foo"), "baz")
-        self.assertEqual(main.solution2(testutils.random_string(5)), testutils.random_string(5))
+        input = testutils.random_string(5)
+        self.assertEqual(main.solution2(input), input)
 
 if __name__ == '__main__':
     unittest.main()
