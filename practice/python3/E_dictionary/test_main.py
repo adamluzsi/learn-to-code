@@ -2,16 +2,20 @@ import unittest
 import sys
 import os
 
-# Adjusting sys.path to import main and testutils
 sys.path.append(os.path.abspath('..'))
 
-from E03_dictionary import main
+from E_dictionary import main
 from testutils import testutils
 
-class TestDictionaryOperations(unittest.TestCase):
 
+class TestDictionaryOperations(unittest.TestCase):
     random_key = testutils.random_string(5)
     random_value = testutils.random_integer(42)
+
+    def test_create_dic(self):
+        self.assertEqual(
+            main.create_dict(self.random_key, self.random_value),
+            {self.random_key: self.random_value})
 
     def test_add_entry(self):
         initial_dict = {"a": 1, "b": 2}

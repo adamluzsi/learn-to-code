@@ -5,7 +5,7 @@ import os
 # Adjusting sys.path to import main and testutils
 sys.path.append(os.path.abspath('..'))
 
-from E02_class import main
+from E_class import main
 from testutils import testutils
 
 class TestSolutions(unittest.TestCase):
