@@ -1,4 +1,4 @@
-def add_entry(dictionary: dict, key: str, value: str) -> dict:
+def add_entry(dictionaryToUpdate: dict, keyToAdd: str, valueToAdd: str) -> dict:
     # TODO: Add a new entry to the dictionary and return the updated dictionary
     pass
 
