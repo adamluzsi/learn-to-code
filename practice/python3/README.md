@@ -1,9 +1,21 @@
-# python3 exercise
+# Topics
 
 - [x] [variable](./E_variable)
+- values, types
+  - [ ] [numerical system](./E_type/E_num)
+  - [ ] [string](./E_type/E_str)
+- [ ] [function/definition](./E_def)
+- [ ] [scope](./E_scope)
 - [x] [if](./E_if)
 - [ ] [looping](./E_loop)
 - [x] [array](./E_array)
 - [x] [dictionary](./E_dictionary)
-- [x] [class](./E_class)
-- 
+- class
+  - [x] [basic syntax](./E_class/E_basic)
+  - [ ] [initialization](./E_class/E_init)
+  - [ ] [inheritance](./E_class/E_inh)
+  - [ ] [method](./E_class/E_method)
+  - [ ] [method visibility](./E_class/E_method_vis)
+- [ ] [module](./E_module)
+- [ ] [importing](./E_import)
+- [ ] [dependency management](./E_dep)
