@@ -7,8 +7,7 @@ sys.path.append(os.path.abspath('..'))
 from E_array import main
 from testutils import testutils
 
-
-class TestDictionaryOperations(unittest.TestCase):
+class TestPractice(unittest.TestCase):
     random_value = testutils.random_string(5)
 
     def test_append(self):
