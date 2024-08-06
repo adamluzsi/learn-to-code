@@ -5,6 +5,7 @@
 [entity]: /topics/programming/entity.md
 [domain]: /topics/programming/ddd/domain.md
 [modelling]: /topics//programming/modelling.md
+[stakeholder]: /topics/project-management/stackeholder.md
 
 # **NoteDown: A Simple Note-Taking Web Application**
 
@@ -21,6 +22,11 @@ NoteDown will allow users to register and log in to access their private notes, 
 
 ## [Backlog][backlog]
 
+- Present to [Stakeholders][stakeholder] what hardware and devices will be used as part of the project
+  - oh now, the stakeholders are not familiar with some IT fundamentals, let's describe it to them (verbally enough).
+    * [what are computer hardware, and why we need it for this project.](/topics/programming/foundation/hardware/Summary.md)
+    * [What is software, what is hardware, and why we need both for this project.](/topics/programming/foundation/SoftwareAndHardware.md)
+    * [what is an Operation System, and why it is benefitial for using one for the project.](/topics/programming/foundation/OperationSystemFundamentals.md)
 - Enable yourself to be able to work on the project
   - [getting familiar with the terminal](/topics/programming/foundation/CommandLineInterface.md)
   - [learning about shell](/topics/programming/foundation/shell/README.md)
