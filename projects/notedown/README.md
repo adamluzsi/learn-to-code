@@ -2,6 +2,9 @@
 [technical-story]: /topics/project-management/technical-story.md
 [user-epic]: /topics/project-management/epic.md
 [backlog]: /topics/project-management/backlog.md
+[entity]: /topics/programming/entity.md
+[domain]: /topics/programming/ddd/domain.md
+[modelling]: /topics//programming/modelling.md
 
 # NoteDown
 
@@ -19,8 +22,17 @@ This will help you stay on track, learn how to learn alongside a task and to bui
 
 ## [Backlog][backlog]
 
-- A User desire to express a given note can be formulised in code
-  - []
+- Enable yourself to be able to work on the project
+  - [getting familiar with the terminal](/topics/programming/foundation/CommandLineInterface.md)
+  - [learning about shell](/topics/programming/foundation/shell/README.md)
+  - installing git on your local development environment
+  - installing a code editor
+  - creating a project directory
+- Enable the system to express a given note as code
+  - [Domain][domain] [Entity][entity] is a good topic to check first
+  - [learning about the modelling process can be valuable for this step](/topics/programming/modelling.md)
+
+<!-- 
 - User can create new notes
 - User can view all saved notes
 - User can edit existing notes
@@ -46,4 +58,4 @@ This will help you stay on track, learn how to learn alongside a task and to bui
 - Application displays formatted notes with HTML rendering
 - Notes are stored securely and privately for each user
 - User accounts can be deleted or deactivated
-- Forgotten passwords can be recovered or reset
+- Forgotten passwords can be recovered or reset -->
