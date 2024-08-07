@@ -1,41 +1,49 @@
+[user-story]: /topics/project-management/user-story.md
+[technical-story]: /topics/project-management/technical-story.md
+[user-epic]: /topics/project-management/epic.md
+[backlog]: /topics/project-management/backlog.md
+
 # NoteDown
 
-The NoteDown project will help you learn web development using the Go language.
+The goal of the NoteDown project is to help you learn software engineering through a hands-on, practical approach.
 
-## modules
+Rather than focusing deeply on theory, we take a different route. 
+Your tasks will primarily be structured as [user stories][user-story] and [technical stories][technical-story]. 
+This method aims to provide you with value-oriented goals while you work and learn, closely mirroring a typical working environment. 
+Moreover, these goals offer small milestones to celebrate.
 
-### Module 1.1: Create a New Project
+Continuous learning can sometimes feel overwhelming. Without real-world context, you might feel anxious about the value of your knowledge. To avoid a situation where the student gets trapped in a feeling of being unprepared for actual work, we take a different approach, focusing on real-world tasks that mirror work expectations.
 
-- [ ] Set up a new Go project using your preferred IDE or text editor
-- [ ] Initialize a Git repository and make an initial commit
+To support your work on these realistic tasks, we will provide guidance on the necessary theoretical knowledge for each task.
+This will help you stay on track, learn how to learn alongside a task and to build confidence in yourself.
 
-### Module 1.2: Hello world!
+## [Backlog][backlog]
 
-- [ ] create `cmd/myapp` directories in your project
-- [ ] Have a `main.go` in it.
-  - [ ] when running this app using `go run` we should have some startup message greeting us
-
-
-### Module 1.2: Define the Note App Requirements
-
-In this module, we'll define the initial requirements for our note taking app. 
-We'll consider the following aspects:
-
-- Health check endpoint:
-  - [ ] the app should be able to retrun back an HTTP status code 200 when the `GET /health` HTTP endpoint is called
-    - for this you need to learn about go's http package
-- Landing Page:
-  - [ ] The app should display a landing page that welcomes users and invites them to start creating notes.
-    - index.html could be found in the `assets` directory, however you nead to learn how to read this file and serve it over HTTP
-  	- [ ] Update the landing page to should include a clear call-to-action (CTA) to create a new note.
-- Note Creation:
-  - [ ] Users should be able to create new notes with a content.
-  - [ ] Notes should be saved automatically as the user press a button 
-- Note Listing:
-  - [ ] The app should display a list of all created notes on the landing page or a separate page.
-  - [ ] Notes should be displayed in a reverse chronological order (newest first).
-  - [ ] Each note should have a clear title, content preview, and tags (if any).
-- Note Editing:
-  - [ ] Users should be able to edit existing notes by clicking on them from the list view.
-  - [ ] The app should allow users to update the note's title, content, and tags.
-
+- A User desire to express a given note can be formulised in code
+  - []
+- User can create new notes
+- User can view all saved notes
+- User can edit existing notes
+- User can delete notes
+- Notes are persisted across application restarts:
+  - Store notes in a file system
+  - Implement caching for faster access (optional)
+  - Store notes in a database (future implementation)
+- Multiple users can register with unique usernames and passwords:
+    - Create user registration form
+    - Validate username and password input
+    - Hash and store passwords securely
+    - Implement login functionality
+- Registered users can log in to access their own notes
+- Users can organize notes by category or tag (optional)
+- Users can search for specific notes
+- Users can format notes using Markdown syntax:
+    - Accept Markdown text input from user
+    - Convert Markdown text to HTML on the server-side
+    - Display formatted HTML note content to user
+- Users can upload images to include in notes
+- Users can view uploaded images within notes
+- Application displays formatted notes with HTML rendering
+- Notes are stored securely and privately for each user
+- User accounts can be deleted or deactivated
+- Forgotten passwords can be recovered or reset
