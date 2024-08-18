@@ -15,10 +15,11 @@
 [git-getting-started]: /topics/programming/version-control/git/getting-started.md
 [code-editor]: /topics/editor.md
 [client]: /topics/project-management/client.md
+[working-on-an-issue]: /topics/project-management/working-on-an-issue.md
 
 # Learn to Code
 
-In this repository you will see some learning materials about programming, that probably help you begin your journey.
+In this repository, you will see some learning materials about programming, that probably help you begin your journey.
 
 The goal of this project is to help you learn software engineering through a hands-on, practical approach.
 
@@ -30,10 +31,12 @@ Moreover, these goals offer small milestones to celebrate.
 
 Continuous learning can sometimes feel overwhelming. Without real-world context, you might feel anxious about the value of your knowledge. To avoid a situation where the student gets trapped in a feeling of being unprepared for actual work, we take a different approach, focusing on real-world tasks that mirror work expectations.
 
-To support your work on these realistic tasks, we will provide guidance on the necessary theoretical knowledge for each task.
-This will help you stay on track, learn how to learn alongside a task and to build confidence in yourself.
+To support your work on these realistic tasks, we will guide the necessary theoretical knowledge for each task.
+This will help you stay on track, learn how to learn alongside a task and build confidence in yourself.
 
-Things marked with `#LE` are meant to practiced with a mantor, as a live exercise.
+Things marked with `#LE` are meant to be practiced with a mentor, as a live exercise.
+
+- [If you are unsure of how to work on a task, check out this short guide on it.][working-on-an-issue]
 
 ## **NoteDown: A Minimalist Note-Taking Web Application**
 
@@ -43,7 +46,7 @@ NoteDown will allow users to register and log in to access their private notes, 
 ### [Backlog][backlog]
 
 - Investigate what is the vision of the [stakeholders][stakeholder] about the project #LE
-  - quick introduction on how to gather requirements from a [client][client]/[stakeholder][stakeholder]
+  - [quick introduction on how to gather requirements from a [client][client]/[stakeholder][stakeholder]][working-on-an-issue]
 - Present to [Stakeholders][stakeholder] what hardware and devices will be used as part of the project #LE
   - oh now, the stakeholders are not familiar with some IT fundamentals, let's describe it to them (verbally enough).
     * [what is computer hardware, and why do we need it for this project?][hardware]
