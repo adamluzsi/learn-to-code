@@ -45,25 +45,9 @@ NoteDown will allow users to register and log in to access their private notes, 
 
 ### [Backlog][backlog]
 
-- Investigate what is the vision of the [stakeholders][stakeholder] about the project #LE
-  - [quick introduction on how to gather requirements from a [client][client]/[stakeholder][stakeholder]][working-on-an-issue]
-- Present to [Stakeholders][stakeholder] what hardware and devices will be used as part of the project #LE
-  - oh now, the stakeholders are not familiar with some IT fundamentals, let's describe it to them (verbally enough).
-    * [what is computer hardware, and why do we need it for this project?][hardware]
-    * [What is software, what is hardware, and why do we need both for this project?][software-hardware]
-    * [what is an Operation System, and why it is beneficial to use one for the project?][operation-system]
-- Enable yourself to be able to work on the project
-  - [getting familiar with the terminal][command-line-interface]
-  - [learning about shell][shell]
-  - [Version control basics][version-control]
-    - [getting familiar with Git][git-getting-started]
-  - [choose and install a code editor][code-editor]
-  - creating a project directory
-    - [bonus points if you create the directory using the shell][shell]
-- Enable the system to express a given note as code
-  - [Domain Entity][entity] is a good topic to check first
-    - if you are unsure what is ["domain" is, then you can read more about it here][domain]
-  - [learning about the modelling process can be valuable for this step][modelling]
+- [Present to Stakeholders what Hardware and Devices will be used as part of the Project](/backlog/present-hardware.md)
+- [Enable yourself to be able to work on the project](/backlog/setup.md)
+- [Enable the system to express a given note as code](/backlog/note-entity.md)
 
 <!-- 
 - Users can create new notes
@@ -80,7 +64,7 @@ NoteDown will allow users to register and log in to access their private notes, 
     - Hash and store passwords securely
     - Implement login functionality
 - Registered users can log in to access their notes
-- Users can organize notes by category or tag (optional)
+- Users can organise notes by category or tag (optional)
 - Users can search for specific notes
 - Users can format notes using Markdown syntax:
     - Accept Markdown text input from a user
