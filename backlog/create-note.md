@@ -21,6 +21,10 @@ Remember to take your time, and don't hesitate to ask for help if you need it.
 * The system allows users to create new notes with a title and content.
 * The system displays the user notes in the list.
 
+## Tutorials
+
+- [practice working with hashmap](/exercise/go/map/)
+
 ## Subtasks
 
 * [Create a Temporary Data Structure for Storing Notes](/backlog/create-note/store-notes-in-memory.md)
