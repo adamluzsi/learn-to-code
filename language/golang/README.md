@@ -7,8 +7,14 @@ This curriculum is designed to take you from Go fundamentals to production-ready
 The learning path is structured in phases, each building upon the previous one to ensure solid foundation while maximizing pragmatic knowledge sharing.
 
 - [Installation](topics/install.md)
-- []
-- [Foundations](Foundations.md)
+- For Fresh Starters
+  - [Core Language Concepts](topics/core.md)
+    - exercises
+      - [core](exercise/xcore/)
+      - [pointer](exercise/xpointer/)
+      - [control statements](exercise/xcontrol/)
+      - [slice](exercise/xslice/)
+      - [map](exercise/xmap/)
 
 
 ## Sources

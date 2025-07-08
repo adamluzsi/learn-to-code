@@ -1,4 +1,10 @@
 
+TODO
+- stuct
+- interface
+- zero values exercise
+- channels and go routines
+
 
 **Core Language Concepts**
 - **Go Syntax & Basics**: Variables, constants, data types, and basic operations
@@ -6,16 +12,6 @@
 - **Functions**: Declaration, parameters, return values, and function types
 - **Packages**: Understanding Go's package system, imports, and module structure
 - **Arrays, Slices & Maps**: Core data structures for storing and manipulating data
-
-**Essential Setup**
-- Go installation and environment setup
-- Basic command line usage (go run, go build, go mod)
-- Text editor/IDE configuration (VS Code, GoLand, or Vim)
-
-**Hands-on Practice**
-- Build simple command-line programs
-- Work through "A Tour of Go" interactive tutorial
-- Complete basic exercises from "Go by Example"
 
 ## Intermediate Concepts (3-4 weeks)
 *Developing practical Go skills*

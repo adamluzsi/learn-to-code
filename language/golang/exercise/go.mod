@@ -1,4 +1,4 @@
-module learn-to-code
+module golang-exercise
 
 go 1.21.5
 
