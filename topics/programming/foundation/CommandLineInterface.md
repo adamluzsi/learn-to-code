@@ -27,7 +27,7 @@ The most popular shells being used are
 
 ## Unix-like environments
 
-Users typically interact with a Unix shell using a [terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator);
+Users typically interact with a Unix shell using a t;
 however, direct operation via serial hardware connections or Secure Shell are common for server systems.
 
 The currently most popular shells are:
