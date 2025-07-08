@@ -1,6 +1,5 @@
 
 TODO
-- stuct
 - interface
 - zero values exercise
 - channels and go routines
