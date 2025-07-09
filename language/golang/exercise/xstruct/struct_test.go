@@ -66,3 +66,18 @@ func TestExercise5(t *testing.T) {
 		"If this is not the case, then the method is using a value receiver type instead of a pointer receiver,",
 		"and the receiver argument is a Pass By Value Copy on each method call.")
 }
+
+func TestExercise6(t *testing.T) {
+	v := xstruct.ShowYourOwnType()
+	assert.NotNil(t, v, "Create your very own struct using the `type` and `struct` keywords.")
+
+	rv := reflect.ValueOf(v)
+	assert.Equal(t, rv.Type().Kind(), reflect.Struct, "The type you returned in ShowYourOwnType is not a struct.")
+
+	personType := reflect.TypeOf((*xstruct.Person)(nil)).Elem()
+	assert.NotEqual(t, personType, rv.Type(),
+		"No cheating, don't return back the Person type, but make your own struct!")
+
+	assert.Equal(t, rv.Type().PkgPath(), personType.PkgPath(),
+		"Please create your struct type within the xstruct package.")
+}

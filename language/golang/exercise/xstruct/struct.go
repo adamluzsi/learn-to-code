@@ -27,3 +27,9 @@ func NewStruct() *Person {
 
 // Exercise 5: Modify Age via Pointer Receiver (Pointer Receiver Method)
 // Expected method name is "UpdateAge" with age int as its only argument.
+
+// Exercise 6: Create your very own struct using the `type` and `struct` keywords,
+// and return a value of it in this function.
+func ShowYourOwnType() any {
+	return nil
+}
