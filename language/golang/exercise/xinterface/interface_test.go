@@ -41,10 +41,10 @@ func TestUseInterfaceMethod(t *testing.T) {
 		"the function should call the Describe method on the interface and return its result")
 }
 
-func TestInterfaceImplementation(t *testing.T) {
-	d := xinterface.TestInterfaceImplementation()
+func TestUseAsAnInterfaceImplementation(t *testing.T) {
+	d := xinterface.UseAsAnInterfaceImplementation()
 	assert.NotNil(t, d, "expected that you return a non-nil Describer value (T{})")
-	_, ok := d.(xinterface.T)
+	_, ok := any(d).(xinterface.T)
 
 	assert.True(t, ok,
 		"The goal of this exercise to see that you can return a concrete type value for an expected interface return result type.",
@@ -53,4 +53,21 @@ func TestInterfaceImplementation(t *testing.T) {
 
 	assert.Equal(t, "Person: Alice, Age 30", d.Describe(),
 		"the function should return a Person struct that implements the Describer interface")
+}
+
+func TestInterfaceTypeAssertion(t *testing.T) {
+	t.Run("when interface is not T then type assertion should yield false", func(t *testing.T) {
+		var x xinterface.Describer = D{}
+		got := xinterface.InterfaceTypeAssertion(x)
+		assert.False(t, got, "make sure you only return true if the type is xinterface.T")
+	})
+	t.Run("when interface is T then type assertion should yield true", func(t *testing.T) {
+		var v xinterface.T
+		vd, ok := any(v).(xinterface.Describer)
+		if !ok {
+			t.Skip("T doesn't support yet Describer, this test is skipped for now")
+		}
+		got := xinterface.InterfaceTypeAssertion(vd)
+		assert.True(t, got, "make sure you return true if the type is xinterface.T")
+	})
 }

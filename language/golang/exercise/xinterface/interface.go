@@ -19,7 +19,13 @@ func UseInterfaceMethod(d Describer) string {
 }
 
 // Exercise 4: Test Interface Implementation (Interface Validation)
-func TestInterfaceImplementation() Describer {
+func UseAsAnInterfaceImplementation() Describer {
 	// Return a T struct that implements the Describer interface.
 	return nil
+}
+
+// Exercise 5: Type assert the interface value (Interface Type Assertion)
+func InterfaceTypeAssertion(d Describer) bool {
+	// Return true if the `d` variable contains a T value type.
+	return false
 }
