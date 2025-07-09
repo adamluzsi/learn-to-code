@@ -52,17 +52,17 @@ func TestExercise4(t *testing.T) {
 }
 
 func TestExercise5(t *testing.T) {
-	p := xstruct.Person{"Alice", 30}
+	v := xstruct.Person{"Alice", 30}
 
 	type WA interface {
 		UpdateAge(age int)
 	}
 
-	wa, ok := any(&p).(WA)
+	wa, ok := any(&v).(WA)
 	assert.True(t, ok)
 	wa.UpdateAge(24)
 
-	assert.Equal(t, p, xstruct.Person{Name: "Alice", Age: 24}, "expected our Person is updated.",
+	assert.Equal(t, v, xstruct.Person{Name: "Alice", Age: 24}, "expected our Person is updated.",
 		"If this is not the case, then the method is using a value receiver type instead of a pointer receiver,",
 		"and the receiver argument is a Pass By Value Copy on each method call.")
 }
