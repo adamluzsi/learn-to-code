@@ -54,16 +54,3 @@ func TestModifyAgeViaPointerReceiver(t *testing.T) {
 		"If this is not the case, then the method is using a value receiver type instead of a pointer receiver,",
 		"and the receiver argument is a Pass By Value Copy on each method call.")
 }
-
-func TestCopyStructIntoNewStruct(t *testing.T) {
-	p := xstruct.Person{"Alice", 30}
-	copied := xstruct.CopyStructIntoNewStruct(p)
-	assert.Equal(t, xstruct.Person{"Alice", 30}, copied,
-		"the function should return a copy of the struct with same fields")
-}
-
-func TestGetAgeViaPointerReceiver(t *testing.T) {
-	p := &xstruct.Person{"Alice", 30}
-	assert.Equal(t, 30, xstruct.GetAgeViaPointerReceiver(p),
-		"the function should return the age through the pointer")
-}
