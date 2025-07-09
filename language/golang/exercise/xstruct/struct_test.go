@@ -1,6 +1,7 @@
 package xstruct_test
 
 import (
+	"reflect"
 	"testing"
 
 	"golang-exercise/xstruct"
@@ -8,20 +9,31 @@ import (
 	"go.llib.dev/testcase/assert"
 )
 
-func TestCreateStruct(t *testing.T) {
+func TestExercise1(t *testing.T) {
 	p := xstruct.CreateStruct()
 	assert.Equal(t, xstruct.Person{"Alice", 30}, p,
 		"the function should return a Person struct with name 'Alice' and age 30")
 }
 
-func TestNewStruct(t *testing.T) {
+func TestExercise2(t *testing.T) {
 	p := xstruct.NewStruct()
 	assert.NotNil(t, p)
 	assert.Equal(t, xstruct.Person{"Zoe", 24}, *p,
 		"the function should return a *Person with name 'Zoe' and age 24")
 }
 
-func TestModifyAgeViaValueReceiver(t *testing.T) {
+func TestExercise3(t *testing.T) {
+	T := reflect.TypeOf(xstruct.Person{})
+	sf, ok := T.FieldByName("MyField")
+
+	assert.True(t, ok,
+		`Add a new field called "MyField" to the Person struct.`,
+		"The type is up to you.")
+
+	t.Logf("hmmm, %s type? Good choice!", sf.Type.String())
+}
+
+func TestExercise4(t *testing.T) {
 	p := xstruct.Person{"Alice", 30}
 
 	type WA interface {
@@ -39,7 +51,7 @@ func TestModifyAgeViaValueReceiver(t *testing.T) {
 	)
 }
 
-func TestModifyAgeViaPointerReceiver(t *testing.T) {
+func TestExercise5(t *testing.T) {
 	p := xstruct.Person{"Alice", 30}
 
 	type WA interface {
