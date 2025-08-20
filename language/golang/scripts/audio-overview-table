@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -eE
+cd "$(dirname $0)"
+
+declare SRC_AUDIO_GUIDE_URL="https://github.com/adamluzsi/learn-to-code/raw/refs/heads/master/language/golang/assets/audio-overview/"
+
+declare f name src
+for f in ../assets/audio-overview/*.m4a; do
+    bname="$(basename "${f}")"
+	name="$(basename "${bname}" ".m4a")"
+	name="${name//_/ }"
+	relpath="assets/audio-overview/${bname}"
+	src="${SRC_AUDIO_GUIDE_URL}/${bname}"
+	audio="$(printf -- '<audio src="%s" controls></audio>' "${src}")"
+
+	printf -- "- [%s](%s)<br>%s\n" "${name}" "${relpath}" "${audio}"
+done
