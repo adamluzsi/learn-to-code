@@ -69,3 +69,17 @@ sudo yum install golang
 go version
 go env GOPATH GOROOT
 ```
+
+## Cloning this project for the exercises
+
+```sh
+git clone "https://github.com/adamluzsi/learn-to-code.git"
+```
+
+Or If you have SSH configured with GitHub:
+
+```sh
+git clone git@github.com:adamluzsi/learn-to-code.git
+```
+
+You will find the exercise within the `language/golang/exercise/` directory.

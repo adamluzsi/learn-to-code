@@ -21,12 +21,20 @@
 
 In this repository, you will see some learning materials about programming, that probably help you begin your journey.
 
-The goal of this project is to help you learn software engineering through a hands-on, practical approach.
+The project aims to help you learn software engineering through a hands‑on, practical approach.
+It combines two straightforward methods that together provide a pragmatic way for gaining real‑world knowledge.
+You’ll also have simple exercises you can undertake independently, building a solid foundation of understanding.
+Feel free to explore and grow your skills—we look forward to seeing your progress!
 
-Rather than focusing deeply on theory, we take a different route. 
-Your tasks will primarily be structured as [user stories][user-story] and [technical stories][technical-story]. 
-This method aims to provide you with value-oriented goals while you work and learn, 
-closely mirroring a typical working environment. 
+You may find the simple language specific exercises inside the `language` directory.
+
+- [Go Language](/language/golang/)
+- [Python](/language/python3/)
+
+Rather than focusing deeply on theory, we take a different route.
+Your tasks will primarily be structured as [user stories][user-story] and [technical stories][technical-story].
+This method aims to provide you with value-oriented goals while you work and learn,
+closely mirroring a typical working environment.
 Moreover, these goals offer small milestones to celebrate.
 
 Continuous learning can sometimes feel overwhelming. Without real-world context, you might feel anxious about the value of your knowledge. To avoid a situation where the student gets trapped in a feeling of being unprepared for actual work, we take a different approach, focusing on real-world tasks that mirror work expectations.
@@ -37,7 +45,6 @@ This will help you stay on track, learn how to learn alongside a task and build 
 Things marked with `#LE` are meant to be practiced with a mentor, as a live exercise.
 
 - [If you are unsure of how to work on a task, check out this short guide on it.][working-on-an-issue]
-
 
 ## Awesome tutorials
 
